@@ -1,0 +1,120 @@
+/* HERO */
+.hero {
+  padding: 3rem 1rem;
+  padding-top: 80px;
+  text-align: center;
+  background: #0a192f;
+  color: white;
+}
+
+.home {
+  padding-top: 80px;
+}
+
+/* ===========================
+   RESUME SECTION
+   =========================== */
+
+.resume-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.resume-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* NEW CONTAINER: AUTO DYNAMIC HEIGHT */
+.resume-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* EACH SLIDE (STACKED) */
+.resume-slide {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* ACTIVE SLIDE SHOWN */
+.resume-slide.active {
+  display: block;
+  opacity: 1;
+}
+
+/* IMAGE AUTO-SCALING */
+.resume-preview-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.download-btn {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s;
+  font-size: 1rem;
+}
+
+.download-btn:hover {
+  background: #005fa3;
+}
+
+/* CONTROLS */
+.resume-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.resume-controls button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.resume-controls button:hover {
+  background: #444;
+}
+
+/* EXPERIENCE SECTION */
+.experience-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.experience-card {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.experience-card:hover {
+  transform: scale(1.01);
+}
+
+.experience-details {
+  margin-top: 1rem;
+  white-space: pre-line;
+}
