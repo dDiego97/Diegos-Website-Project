@@ -53,19 +53,19 @@ function Home() {
   // =============================
   const experience = [
     {
-      job: ".Net Developer – Rectangle Health",
+      job: ".Net",
       details: `• Built internal applications using C# and .NET.
 • Integrated SQL queries into production APIs.
 • Designed reusable UI components using React.`,
     },
     {
-      job: "Junior Developer – Company B",
+      job: "SQL",
       details: `• Supported backend API development.
 • Maintained SQL databases and optimized slow queries.
 • Worked with stakeholders to improve product features.`,
     },
     {
-      job: "IT Technician – Company C",
+      job: "React",
       details: `• Provided hardware and software support.
 • Automated tasks using PowerShell and Python.
 • Created documentation for internal processes.`,
