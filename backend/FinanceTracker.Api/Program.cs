@@ -1,9 +1,14 @@
+using FinanceTracker.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<FinanceTrackerDbContext>(options =>
+    options.UseSqlite("Data Source=financetracker.db"));
 
 var app = builder.Build();
 
