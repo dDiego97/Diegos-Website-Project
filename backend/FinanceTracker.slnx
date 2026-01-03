@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="FinanceTracker.Api/FinanceTracker.Api.csproj" />
+  <Project Path="FinanceTracker.Application/FinanceTracker.Application.csproj" />
   <Project Path="FinanceTracker.Domain/FinanceTracker.Domain.csproj" />
 </Solution>
